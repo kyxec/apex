@@ -7,3 +7,7 @@ test-results/
 комментарии.txt
 цветовая палитра.jpg
 всякие лого/
+public/assets/*.webp
+public/assets/*.jpg
+public/assets/*.png
+public/fonts/*.woff2
