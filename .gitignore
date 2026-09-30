@@ -1,0 +1,9 @@
+dist/
+node_modules/
+.tools/
+.cache/
+test-results/
+информация.txt
+комментарии.txt
+цветовая палитра.jpg
+всякие лого/
