@@ -1,5 +1,5 @@
-import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
-import { resolve } from 'node:path';
+import { readFile, writeFile, mkdir, cp, rm, access } from 'node:fs/promises';
+import { resolve, dirname, sep } from 'node:path';
 import ru from '../content/ru.mjs';
 import es from '../content/es.mjs';
 import en from '../content/en.mjs';
@@ -16,6 +16,13 @@ const languages = [ru, es, en];
 await rm(output, {recursive:true,force:true});
 await mkdir(output, {recursive:true});
 await cp('public', output, {recursive:true});
+const packed = JSON.parse(await readFile('assets/packed.json','utf8'));
+for (const [path, data] of Object.entries(packed)) {
+  const destination = resolve(output,path);
+  if (!destination.startsWith(output+sep) || !/^(assets|fonts)\/[a-zA-Z0-9._-]+\.(webp|jpg|png|woff2)$/.test(path)) throw new Error('Invalid packed asset path: '+path);
+  try { await access(resolve('public',path)); }
+  catch { await mkdir(dirname(destination),{recursive:true}); await writeFile(destination,Buffer.from(data,'base64')); }
+}
 const css = await readFile('src/fonts.css','utf8') + '\n' + await readFile('src/styles.css','utf8');
 await writeFile(resolve(output,'assets/styles.css'), css);
 await cp('src/main.js',resolve(output,'assets/main.js'));
