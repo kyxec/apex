@@ -12,3 +12,5 @@
 Шрифт Manrope: https://fonts.google.com/specimen/Manrope. Локальные WOFF2, variable weights 400–800, SIL Open Font License. Полный текст лицензии — public/fonts/OFL.txt. Подключение локальное, без запросов браузера к Google Fonts.
 
 Социальная обложка 1200×630: фото living, затемнение фирменного бирюзового цвета и название компании.
+
+Для передачи бинарных файлов через подключённый GitHub API исходники упакованы в assets/packed.json. scripts/build.mjs восстанавливает обычные файлы в dist. scripts/pack-assets.mjs обновляет упаковку после изменения локальных фото или шрифтов.
