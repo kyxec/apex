@@ -4,8 +4,9 @@ export const company = {
   phoneLink: '+34632116353',
   whatsapp: '34632116353',
   email: 'apexbuildinggroup.es@gmail.com',
-  instagram: 'https://www.instagram.com/apex_building_group.es/',
-  city: 'Valencia',
+  instagram: 'https://www.instagram.com/apexbuildinggroup.es/?utm_source=ig_web_button_share_sheet',
+  instagramHandle: '@apexbuildinggroup.es',
+  areaServed: { '@type': 'AdministrativeArea', name: 'Comunidad Valenciana', containedInPlace: { '@type': 'Country', name: 'Spain' } },
   defaultLanguage: 'ru',
 };
 

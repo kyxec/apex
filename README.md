@@ -1,6 +1,6 @@
 # Apex Building Group
 
-Сайт компании по ремонту в Валенсии. Русский, испанский и английский. Готовый HTML, локальные шрифты и WebP; никаких production-зависимостей.
+Сайт компании по ремонту на всей территории Валенсийского сообщества. Русский, испанский и английский. Готовый HTML, локальные шрифты и WebP; никаких production-зависимостей.
 
 ## Локальный запуск
 
@@ -36,11 +36,11 @@ node scripts/check.mjs
 
 ## GitHub Pages
 
-В репозитории: Settings → Pages → Source → GitHub Actions. Workflow `.github/workflows/pages.yml` собирает, проверяет и публикует сайт после изменений в `main`. Адрес берётся из `actions/configure-pages`, поэтому ссылки работают и под путём `/apex-building-group/`.
+В репозитории: Settings → Pages → Source → GitHub Actions. Workflow `.github/workflows/pages.yml` собирает, проверяет и публикует сайт после изменений в `main`. Адрес берётся из `actions/configure-pages`, поэтому ссылки работают и на собственном домене, и под путём `/apex/`.
 
 ## Домен и продвижение
 
-Домен ещё не куплен и не подключён. После покупки `apexbuildinggroup.es` или другого домена добавьте его в Settings → Pages → Custom domain, настройте DNS по инструкции GitHub и включите HTTPS. Перезапустите workflow: SEO-адреса будут собраны для нового домена. Не создавайте CNAME до подтверждения домена.
+Основной домен — `apexbuildinggroup.info`, зарегистрирован в GoDaddy и назначен в Settings → Pages → Custom domain. DNS для `@`: четыре A-записи `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; для `www`: CNAME `kyxec.github.io`. GitHub выпускает HTTPS-сертификат автоматически; параметр Enforce HTTPS должен быть включён. При изменении домена перезапустите workflow, чтобы canonical, hreflang и sitemap использовали новый адрес. Для публикации через GitHub Actions файл CNAME не требуется.
 
 После подключения домена зарегистрируйте сайт в Google Search Console и отправьте `sitemap.xml`. Для локального поиска добавьте подтверждённый профиль компании в Google Business Profile. При появлении юридического адреса и регистрационных данных дополните уведомление о данных и разметку. Разметка сейчас использует Organization и Service; почтовый адрес и оценки не выдуманы. На проектном URL GitHub Pages robots.txt находится в подкаталоге и не заменяет robots.txt домена `github.io`; sitemap можно передать в Search Console напрямую.
 

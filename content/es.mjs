@@ -1,11 +1,11 @@
 export default {
   lang: 'es', locale: 'es_ES', label: 'Español',
-  title: 'Reformas integrales en Valencia | Apex Building Group',
-  description: 'Reformas de pisos, casas y locales en Valencia. Apex Building Group coordina planificación, instalaciones, acabados y limpieza final. Cuéntanos tu proyecto.',
+  title: 'Reformas en la Comunidad Valenciana | Apex Building Group',
+  description: 'Reformas integrales de pisos, casas y locales en toda la Comunidad Valenciana. Apex Building Group coordina instalaciones, acabados y limpieza final.',
   skip: 'Ir al contenido', navLabel: 'Navegación principal', menu: 'Abrir menú', closeMenu: 'Cerrar menú', language: 'Idioma del sitio',
   nav: ['Servicios', 'Nosotros', 'Cómo trabajamos', 'Contacto'], navCTA: 'Hablemos de tu proyecto',
   hero: {
-    location: 'Valencia, España', kicker: 'Reformas integrales en Valencia',
+    location: 'Comunidad Valenciana, España', kicker: 'Reformas integrales en la Comunidad Valenciana',
     lines: ['Espacios para', 'vivir a', 'tu manera.'],
     text: 'Desde la primera idea hasta el último detalle. Nos ocupamos de toda la reforma para que disfrutes del resultado.',
     cta: 'Hablemos de tu reforma', secondary: 'Cómo trabajamos', scroll: 'Descubre más',
@@ -27,7 +27,7 @@ export default {
   },
   about: {
     label: 'Apex Building Group', title: 'Tú imaginas\nel resultado.\nNosotros lo creamos.',
-    text: 'Somos un equipo de especialistas en reformas y acabados en Valencia. Trabajamos en pisos, casas y locales comerciales.',
+    text: 'Somos un equipo de especialistas en reformas y acabados. Trabajamos en pisos, casas y locales comerciales en todo el territorio de la Comunidad Valenciana.',
     text2: 'Nos encargamos de organizar los trabajos, coordinar a los profesionales y gestionar la compra y entrega de materiales. Hablas con un solo equipo y cada etapa sigue un orden claro.',
     points: ['Planificación de trabajos, presupuesto y plazos', 'Coordinación de profesionales y materiales', 'Revisión del resultado antes de la entrega'],
     imageAlt: 'Espacio residencial contemporáneo con escalera de madera y acabados naturales', caption: 'Desde la primera visita hasta un espacio listo para vivir',
@@ -74,7 +74,7 @@ export default {
     label: 'Antes de empezar', title: 'Lo que te\ngustaría saber.',
     items: [
       ['¿Cuánto cuesta una reforma integral?', 'El coste depende de la superficie, el estado del inmueble, el alcance de los trabajos y los materiales elegidos. Tras visitar el espacio y hablar de tus necesidades, preparamos una estimación inicial. Escríbenos para comentar tu proyecto.'],
-      ['¿Puedo contratar trabajos puntuales?', 'Sí. Además de reformas integrales, realizamos trabajos de fontanería, electricidad, acabados, montaje y transporte. Cuéntanos qué necesitas y comentamos el alcance adecuado.'],
+      ['¿Puedo contratar trabajos puntuales?', 'Sí. Además de reformas integrales, realizamos trabajos de fontanería, instalaciones eléctricas, acabados, montaje y transporte. Cuéntanos qué necesitas y comentamos el alcance adecuado.'],
       ['¿Quién se encarga de los materiales?', 'Podemos gestionar la compra y entrega de materiales. Hablamos contigo sobre acabados, sanitarios, puertas y muebles durante la planificación.'],
       ['¿Cuánto tiempo dura la reforma?', 'Definimos los plazos después de visitar el inmueble y acordar los trabajos. Dependen del estado del espacio, las instalaciones, los materiales y el orden de las etapas.'],
       ['¿Es obligatorio un proyecto de diseño?', 'No. Siempre hablamos de la distribución, pero el proyecto completo de diseño y las visualizaciones 3D se realizan cuando son necesarios y si los deseas.'],
@@ -84,7 +84,7 @@ export default {
   contact: {
     label: 'Empecemos hablando', title: 'Tu espacio tiene\npotencial.\nVamos a descubrirlo.',
     text: 'Cuéntanos cómo es el inmueble y qué tienes en mente. Hablamos de trabajos, presupuesto y la primera visita.',
-    phoneLabel: 'Llámanos', emailLabel: 'Escríbenos', area: 'Trabajamos en Valencia',
+    phoneLabel: 'Llámanos', emailLabel: 'Escríbenos', area: 'Trabajamos en toda la Comunidad Valenciana',
     formTitle: 'Cuéntanos tu proyecto', name: 'Cómo te llamas', namePlaceholder: 'Tu nombre', phone: 'Número de teléfono', phonePlaceholder: '+34 600 000 000',
     type: 'Tipo de inmueble', types: ['Elige una opción','Piso','Casa','Local comercial','Otro'],
     message: 'Qué te gustaría hacer', messageOptional: 'opcional', messagePlaceholder: 'Por ejemplo: reforma de un piso de 70 m² en Valencia…',

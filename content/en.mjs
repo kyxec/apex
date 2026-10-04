@@ -1,11 +1,11 @@
 export default {
   lang:'en',locale:'en_GB',label:'English',
-  title:'Home Renovations in Valencia | Apex Building Group',
-  description:'Full renovations for apartments, houses and commercial spaces in Valencia. Apex Building Group handles planning, installations, finishes and final cleaning.',
+  title:'Valencian Community Renovations | Apex Building Group',
+  description:'Full renovations for apartments, houses and commercial spaces throughout the Valencian Community. Apex Building Group handles installations, finishes and cleaning.',
   skip:'Skip to content',navLabel:'Main navigation',menu:'Open menu',closeMenu:'Close menu',language:'Website language',
   nav:['Services','About us','Our process','Contact'],navCTA:'Discuss your project',
   hero:{
-    location:'Valencia, Spain',kicker:'Full renovations in Valencia',lines:['Spaces made', 'for the way', 'you live.'],
+    location:'Valencian Community, Spain',kicker:'Full renovations across the Valencian Community',lines:['Spaces made', 'for the way', 'you live.'],
     text:'From the first idea to the finishing touches. We take care of the renovation so you can enjoy the result.',
     cta:'Discuss your renovation',secondary:'How we work',scroll:'Discover more',
     imageAlt:'Bright living room with wooden flooring, large windows and natural materials',imageNote:'An interior to inspire you',
@@ -26,7 +26,7 @@ export default {
   },
   about:{
     label:'Apex Building Group',title:'You imagine\nthe result.\nWe bring it to life.',
-    text:'We are a team of renovation and finishing specialists in Valencia. We work on apartments, houses and commercial spaces.',
+    text:'We are a team of renovation and finishing specialists. We work on apartments, houses and commercial spaces throughout the Valencian Community.',
     text2:'We organise the work, coordinate the trades and handle material purchasing and delivery. You work with one team, while each stage follows a clear sequence.',
     points:['Planning the work, budget and schedule','Coordinating trades and materials','Checking the result before handover'],
     imageAlt:'Contemporary home with a wooden staircase and natural finishes',caption:'From the first visit to a space ready to live in',
@@ -73,7 +73,7 @@ export default {
     label:'Before we begin',title:'What you\nmight want to know.',
     items:[
       ['How much does a full renovation cost?','The cost depends on the size and condition of the property, the scope of work and the materials you choose. After a site visit and a discussion of your needs, we prepare an initial estimate. Get in touch to discuss your property.'],
-      ['Can I book individual jobs?','Yes. Alongside full renovations, we offer plumbing, electrical work, finishing, installation and transport. Tell us what you need and we can discuss the right scope of work.'],
+      ['Can I book individual jobs?','Yes. Alongside full renovations, we offer plumbing, electrical installation, finishing, installation and transport. Tell us what you need and we can discuss the right scope of work.'],
       ['Who handles the materials?','We can manage material purchasing and delivery. We discuss finishes, sanitaryware, doors and furniture with you during the planning stage.'],
       ['How long will the renovation take?','We establish the schedule after visiting the property and agreeing the work. It depends on the condition of the space, the building services, chosen materials and the sequence of stages.'],
       ['Do I need a full design project?','No. We always discuss the layout, while a full design project and 3D visualisations are prepared when needed and at your request.'],
@@ -83,7 +83,7 @@ export default {
   contact:{
     label:'Let’s start a conversation',title:'Your space has\npotential.\nLet’s bring it out.',
     text:'Tell us about the property and your plans. We can discuss the work, budget and first visit.',
-    phoneLabel:'Give us a call',emailLabel:'Email us',area:'Working in Valencia',formTitle:'Tell us about your project',
+    phoneLabel:'Give us a call',emailLabel:'Email us',area:'Working throughout the Valencian Community',formTitle:'Tell us about your project',
     name:'Your name',namePlaceholder:'Your name',phone:'Phone number',phonePlaceholder:'+34 600 000 000',
     type:'Property type',types:['Choose a type','Apartment','House','Commercial property','Other'],
     message:'What would you like to do?',messageOptional:'optional',messagePlaceholder:'For example: renovation of a 70 m² apartment in Valencia…',
